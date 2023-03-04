@@ -1,0 +1,122 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local ScriptChecker = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+ScriptChecker.Name = "Script Checker"
+ScriptChecker.Parent = ScreenGui
+ScriptChecker.BackgroundColor3 = Color3.fromRGB(33, 34, 124)
+ScriptChecker.Position = UDim2.new(0.357409507, 0, 0.347880274, 0)
+ScriptChecker.Size = UDim2.new(0, 320, 0, 460)
+
+UICorner.CornerRadius = UDim.new(0, 15)
+UICorner.Parent = ScriptChecker
+
+TextBox.Parent = ScriptChecker
+TextBox.BackgroundColor3 = Color3.fromRGB(47, 67, 122)
+TextBox.Position = UDim2.new(0.0749999955, 0, 0.0599803701, 0)
+TextBox.Size = UDim2.new(0, 272, 0, 403)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.MultiLine = true
+TextBox.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+TextBox.Text = "    \\n    Today I Will Tell You Guys The Basics About Making A \\n    Roblox Script/expoit Let's Get Into It."
+TextBox.TextColor3 = Color3.fromRGB(178, 178, 178)
+TextBox.TextSize = 14.000
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_2.CornerRadius = UDim.new(0, 15)
+UICorner_2.Parent = TextBox
+
+TextButton.Parent = ScriptChecker
+TextButton.BackgroundColor3 = Color3.fromRGB(104, 255, 93)
+TextButton.Position = UDim2.new(0.943750024, 0, 0.0130434781, 0)
+TextButton.Size = UDim2.new(0, 11, 0, 14)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner_3.CornerRadius = UDim.new(0, 99)
+UICorner_3.Parent = TextButton
+
+TextButton_2.Parent = ScriptChecker
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 69, 69)
+TextButton_2.Position = UDim2.new(0.837499976, 0, 0.0130434781, 0)
+TextButton_2.Size = UDim2.new(0, 11, 0, 14)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 99)
+UICorner_4.Parent = TextButton_2
+
+TextButton_3.Parent = ScriptChecker
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 250, 101)
+TextButton_3.Position = UDim2.new(0.890625, 0, 0.0130434781, 0)
+TextButton_3.Size = UDim2.new(0, 11, 0, 14)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = ""
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+UICorner_5.CornerRadius = UDim.new(0, 99)
+UICorner_5.Parent = TextButton_3
+
+ImageLabel.Parent = ScriptChecker
+ImageLabel.BackgroundColor3 = Color3.fromRGB(33, 34, 124)
+ImageLabel.Size = UDim2.new(0, 38, 0, 27)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=5823405151"
+ImageLabel.ImageColor3 = Color3.fromRGB(81, 65, 255)
+
+UICorner_6.CornerRadius = UDim.new(0, 20)
+UICorner_6.Parent = ImageLabel
+
+TextLabel.Parent = ScriptChecker
+TextLabel.BackgroundColor3 = Color3.fromRGB(33, 34, 124)
+TextLabel.Position = UDim2.new(0.118749999, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 78, 0, 20)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Script Checker"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+UICorner_7.CornerRadius = UDim.new(0, 20)
+UICorner_7.Parent = TextLabel
+
+-- Scripts:
+
+local function NQFGDIT_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	
+end
+coroutine.wrap(NQFGDIT_fake_script)()
+local function AZDQ_fake_script() -- ScriptChecker.LocalScript 
+	local script = Instance.new('LocalScript', ScriptChecker)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(AZDQ_fake_script)()
